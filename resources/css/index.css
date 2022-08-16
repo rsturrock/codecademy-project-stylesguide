@@ -1,0 +1,97 @@
+/* Universal Styles */
+
+html {
+    font-family: 'Roboto';
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+/* Header */
+
+header {
+
+}
+
+/* Main */
+
+main {
+  margin: 0 50px;  
+}
+
+/* Nav */
+nav {
+
+}
+
+/* Classes */
+
+.attribute {
+ padding: 5px;
+}
+
+.attribute > h2 {
+    font-size: 45px;
+}
+
+.colorExample {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+}
+
+/* Color Section */
+
+.aquaWave {
+    background-color: #03a9f4;
+}
+
+.goldenSunflower {
+    background-color: #ffee58;
+}
+
+.verdantStem {
+    background-color: #4caf50;
+}
+
+div.aquaWave p {
+    margin-left: 10px;
+}
+
+div.goldenSunflower p {
+    margin-left: 10px;
+}
+
+div.verdantStem p {
+    margin-left: 10px;
+}
+
+/* Font Section */
+
+#fontTitle {
+    font-family: 'Montserrat';
+    font-size: 25px;
+}
+
+#fontGrid {
+    font-family: 'Montserrat';
+}
+
+#fontThin {
+    font-weight: 100;
+}
+
+#fontRegular {
+    font-weight: 400;
+}
+
+#fontBold {
+    font-weight: 700;
+}
+
+#fontBlack {
+    font-weight: 900;
+}
