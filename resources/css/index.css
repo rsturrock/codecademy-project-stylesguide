@@ -9,6 +9,10 @@ h1 {
     font-weight: 900;
 }
 
+h2 {
+    margin: 0px;
+}
+
 /* Header */
 
 header {
@@ -29,7 +33,10 @@ nav {
 /* Classes */
 
 .attribute {
- padding: 5px;
+ padding: 20px;
+ border: 3px solid gray;
+ margin: 10px;
+ background-color: rgb(235, 240, 247);
 }
 
 .attribute > h2 {
@@ -71,13 +78,22 @@ div.verdantStem p {
 
 /* Font Section */
 
-#fontTitle {
+#fontTitle1 {
     font-family: 'Montserrat';
     font-size: 25px;
 }
 
-#fontGrid {
+#fontGrid1 {
     font-family: 'Montserrat';
+}
+
+#fontTitle2 {
+    font-family: 'Roboto';
+    font-size: 25px;
+}
+
+#fontGrid2 {
+    font-family: 'Roboto';
 }
 
 #fontThin {
@@ -94,4 +110,14 @@ div.verdantStem p {
 
 #fontBlack {
     font-weight: 900;
+}
+
+/* Text Styles */
+
+#textStylesGrid h1 {
+    font-size: 35px;
+}
+
+#textStylesGrid p {
+    margin: 5px;
 }
